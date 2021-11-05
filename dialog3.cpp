@@ -11,8 +11,8 @@ placeWidgets();
  void Dialog3::createWidgets(){
 
      grid_layout = new QGridLayout;
-     grid_layout->setSpacing(2);
-    nums={ "9", "8", "7","6", "5", "4","3", "2", "1","0", "*", "-", "/", ".", "=", "+"};
+
+    nums={ "9", "8", "7","/","6", "5", "4","*","3", "2", "1","+","0", "-", ".", "=", };
     lcd = new QLCDNumber;
    lcd->setSegmentStyle(QLCDNumber::Filled);
 
@@ -30,8 +30,8 @@ void Dialog3::placeWidgets(){
 
       int pos = 0;
 
-     for (int i=1; i<=4; i++) {
-     for (int j=1; j<=4; j++) {
+     for (int i=0; i<4; i++) {
+     for (int j=0; j<4; j++) {
 
        auto *button = new QPushButton(nums[pos], this);
        button->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
