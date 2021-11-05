@@ -39,13 +39,11 @@ Dialog2::Dialog2(QWidget *parent):QWidget(parent) {
         layout_->addRow("Reproductibility:",list);
 
         down_layout->addWidget(reset);
-       // layout->addSpacer(SpaceItem)
          down_layout->addStretch();
         down_layout->addWidget(submit);
         down_layout->addWidget(n_submit);
 
         main_layout->addLayout(layout_);
-        //main_layout->addWidget(list);
         main_layout->addLayout(down_layout);
 
 
