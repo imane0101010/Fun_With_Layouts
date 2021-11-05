@@ -29,7 +29,7 @@ Finally,let´s add strech to the layouts:
       
 Here is the result:
 
-<img src="A.png" style="float: left; margin-right: 10px;" />
+![image](https://github.com/imane0101010/Fun_With_Layouts/blob/80167854cdfdbf1928609e18af25aa82aebf1a7b/B.PNG)
 
 
 ## Bug Report Form:
@@ -57,7 +57,7 @@ Then let´s add the strech:
 
 Here is the result:
 
-<img src="B.png" style="float: left; margin-right: 10px;" />
+![image](https://github.com/imane0101010/Fun_With_Layouts/blob/1f47058dbb68d31cad89dfa30402246b09205cd8/C.PNG)
    
 ## Calculator:
 
@@ -89,6 +89,6 @@ Then let´s add the components in the layouts and add the layouts in the main on
 
 Here is the result:
 
-<img src="D.png" style="float: left; margin-right: 10px;" />
+![image](https://github.com/imane0101010/Fun_With_Layouts/blob/80167854cdfdbf1928609e18af25aa82aebf1a7b/D.PNG)
    
 
