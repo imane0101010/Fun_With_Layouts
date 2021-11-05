@@ -57,7 +57,7 @@ Then let´s add the strech:
 
 Here is the result:
 
-![image](https://github.com/imane0101010/Fun_With_Layouts/blob/1f47058dbb68d31cad89dfa30402246b09205cd8/C.PNG)
+![image](https://github.com/imane0101010/Fun_With_Layouts/blob/9f81e1afc33772d61c0fdf9fe3a8ab3a3f965eea/A.PNG)
    
 ## Calculator:
 
