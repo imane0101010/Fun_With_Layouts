@@ -1,7 +1,7 @@
 # Fun_With_Layouts
-The goal of this lab is learn to analyse the construction of a form and thencode it using Netsted layouts.
+The goal of this lab is learn to analyse the construction of a form and then code it using Netsted layouts.
 
-## Nested Layouts:
+## Nested Layouts: 
 
 ![image](https://github.com/imane0101010/Fun_With_Layouts/blob/1f47058dbb68d31cad89dfa30402246b09205cd8/C.PNG)
 First let´s create the components and the layouts :
