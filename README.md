@@ -44,20 +44,37 @@ Here is the result:
 
 First let´s create the components and the layouts : 
 ``` cpp
-     QLineEdit *problem_title;
-     QTextEdit *summary;
-     QComboBox *list ;
-     QPushButton* reset;
-     auto main_layout = new QVBoxLayout;
-     auto down_layout = new QHBoxLayout;
-     auto layout_ = new QFormLayout;
+    QLineEdit* name ;
+    QLineEdit *company;
+    QLineEdit *phone;
+    QLineEdit *email;
+    QLineEdit *problem_title;
+    QTextEdit *summary;
+    QComboBox *list ;
+    QPushButton* reset;
+    QPushButton* submit;
+    QPushButton* n_submit;
+    auto main_layout = new QVBoxLayout;
+    auto down_layout = new QHBoxLayout;
+    auto layout_ = new QFormLayout;
  ``` 
 Then let´s add the components in the layouts and add the layouts in the main one:
 ``` cpp
-    layout_->addRow("Name:",name);
-    list->addItem("Always");
-    down_layout->addWidget(reset);
-    main_layout->addLayout(layout_);
+        layout_->addRow("Name:",name);
+        layout_->addRow("Comany:",company);
+        layout_->addRow("Phone:",phone);
+        layout_->addRow("Email:",email);
+        layout_->addRow("Problem Title:",problem_title);
+        layout_->addRow("Summary:",summary);
+        list->addItem("Always");
+        layout_->addRow("Reproductibility:",list);
+        down_layout->addWidget(reset);
+        down_layout->addStretch(10);
+        down_layout->addWidget(submit);
+        down_layout->addWidget(n_submit);
+        main_layout->addLayout(layout_);
+        main_layout->addLayout(down_layout);
+
  ```    
 Then let´s add the strech:
 ``` cpp      
