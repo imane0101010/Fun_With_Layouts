@@ -47,5 +47,5 @@ void Dialog1::placeWidgets(){
 }
 
 void Dialog1::makeConnections(){
-
+connect(close, &QPushButton::clicked, qApp, &QApplication::exit);
 }
