@@ -23,6 +23,10 @@ Then,let´s add the components in the layouts and add the layouts in the main on
       left_layout->addLayout(Top_left_layout);
       main_layout->addLayout(left_layout);
       
+Now, let's connect the close button:
+
+    connect(close, &QPushButton::clicked, qApp, &QApplication::exit);
+
 Finally,let´s add strech to the layouts:
 
       right_layout->addStretch(10);
@@ -89,6 +93,6 @@ Then let´s add the components in the layouts and add the layouts in the main on
 
 Here is the result:
 
-![image](https://github.com/imane0101010/Fun_With_Layouts/blob/80167854cdfdbf1928609e18af25aa82aebf1a7b/D.PNG)
+![image](https://github.com/imane0101010/Fun_With_Layouts/blob/66e93c1829f5ccd64fabd457be3134866f8984be/D1.png)
    
 
