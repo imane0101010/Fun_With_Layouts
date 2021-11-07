@@ -5,7 +5,8 @@ The goal of this lab is learn to analyse the construction of a form and thencode
 
 ![image](https://github.com/imane0101010/Fun_With_Layouts/blob/1f47058dbb68d31cad89dfa30402246b09205cd8/C.PNG)
 First let´s create the components and the layouts :
-
+     
+    ```c++
     QLineEdit* name ;
     QPushButton* search;
     QPushButton* close;
@@ -15,7 +16,7 @@ First let´s create the components and the layouts :
     auto left_layout = new QVBoxLayout;
     auto right_layout = new QVBoxLayout;
     auto Top_left_layout = new QFormLayout;
-
+    ```
 Then,let´s add the components in the layouts and add the layouts in the main one:
      
       Top_left_layout->addRow("name:", name);
